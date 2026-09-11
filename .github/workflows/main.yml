@@ -30,8 +30,9 @@ jobs:
           pip install requests beautifulsoup4 pandas
 
       # Paso D: Ejecutar nuestro script de Python
+      # Se incluye la carpeta contenedora donde está alojado el script
       - name: Ejecutar script de Web 
-        run: python texto.py
+        run: python Web-Scraping/texto.py
 
       # Paso E: Guardar y subir el archivo CSV generado al repositorio
       - name: Guardar cambios en GitHub
