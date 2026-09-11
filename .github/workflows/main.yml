@@ -31,7 +31,7 @@ jobs:
 
       # Paso D: Ejecutar nuestro script de Python
       - name: Ejecutar script de Web 
-        run: python scraper.py
+        run: python texto.py
 
       # Paso E: Guardar y subir el archivo CSV generado al repositorio
       - name: Guardar cambios en GitHub
