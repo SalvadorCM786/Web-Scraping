@@ -27,4 +27,4 @@ for fila in filas:
 
 df = pd.DataFrame(datos)
 df.to_csv("videojuegos_mas_vendidos.csv", index=False)
-print("Scraping exitoso y archivo videojuegos_mas_vendidos.csv creado.")
+print("Archivo videojuegos_mas_vendidos.csv creado.")
